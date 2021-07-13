@@ -7,4 +7,5 @@ using namespace cv;
 class QuickDemo {
 public:
 	void colorSpace_Demo(Mat &image);//图像色彩空间转换Demo，参数是图像
+	void mat_creation_demo(Mat &image);
 };

@@ -16,7 +16,7 @@ int main() {
 							//imshow必须用八位的
 
 	QuickDemo qd;
-	qd.colorSpace_Demo(src);
+	qd.mat_creation_demo(src);
 
 	waitKey(0);//显示需要，0代表阻塞，1表示停顿1ms
 	destroyAllWindows();//对前面所有创建的显示窗口进行销毁
